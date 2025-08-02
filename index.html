@@ -1,7 +1,63 @@
 <!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub1 yay he he ha yay pickles ddyarhgsuygfuye Pages.</p>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CodeSpace</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-950 text-gray-100 font-mono">
+  <!-- Header -->
+  <header class="p-6 bg-gray-900 shadow-md flex justify-between items-center">
+    <h1 class="text-2xl font-bold text-teal-400">CodeSpace</h1>
+    <nav class="space-x-6">
+      <a href="#projects" class="hover:text-teal-300">Projects</a>
+      <a href="#snippets" class="hover:text-teal-300">Snippets</a>
+      <a href="#contact" class="hover:text-teal-300">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="text-center py-20 px-4 bg-gray-800">
+    <h2 class="text-4xl font-bold mb-4">Welcome, Coder!</h2>
+    <p class="text-lg text-gray-400">Build. Share. Learn. One line at a time.</p>
+  </section>
+
+  <!-- Code Snippet -->
+  <section id="snippets" class="py-16 px-6 max-w-4xl mx-auto">
+    <h3 class="text-2xl font-semibold text-teal-400 mb-6">Sample Snippet</h3>
+    <pre class="bg-gray-900 p-4 rounded-md text-sm overflow-x-auto">
+<code class="text-green-400">// Hello World in Python
+def greet():
+    print("Hello, developer!")
+
+greet()</code>
+    </pre>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="py-16 px-6 bg-gray-800">
+    <h3 class="text-2xl font-semibold text-teal-400 mb-6 text-center">Projects</h3>
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-4xl mx-auto">
+      <a href="https://github.com/" class="bg-gray-900 p-6 rounded hover:bg-gray-700 transition">
+        <h4 class="text-lg font-bold">Project One</h4>
+        <p class="text-gray-400">A simple open-source tool.</p>
+      </a>
+      <a href="https://github.com/" class="bg-gray-900 p-6 rounded hover:bg-gray-700 transition">
+        <h4 class="text-lg font-bold">Project Two</h4>
+        <p class="text-gray-400">Another cool utility for coders.</p>
+      </a>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-16 px-6 max-w-xl mx-auto text-center">
+    <h3 class="text-2xl font-semibold text-teal-400 mb-4">Get in Touch</h3>
+    <p class="text-gray-400 mb-4">Email: <a href="mailto:you@example.com" class="text-teal-300 underline">you@example.com</a></p>
+  </section>
+
+  <footer class="text-center p-6 bg-gray-900 text-gray-500">
+    &copy; 2025 CodeSpace. Built by Developers, for Developers.
+  </footer>
 </body>
 </html>
